@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 10px;
+  position: fixed;
+  top: 0px;
+}
+.navigation a {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+body {
+  padding-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.plants {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.plants h2 {
+  color: green;
+  align-self: center;
+}
+.flowers {
+  margin: 50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.flowers h2 {
+  color: green;
+  align-self: center;
+}
+.intro {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  line-height: 2.5;
+  display: flex;
+  flex-direction: column;
+}
+.intropl {
+  display: flex;
+  flex-direction: column;
+}
+.introfl {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_remove {
+  color: rgb(12, 87, 31);
+  font-style: bold;
+}
+.instructions {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  padding-top: 100px;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+}
+.section-header {
+  color: blue;
+  display: flex;
+  align-self: center;
+}
+.my_list h1 {
+  color: blue;
+  align-content: center;
+}
+.products {
+  align-content: space-around;
+}
+.product {
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.cart_row {
+  display: row;
+  justify-content: space-between;
+}
+
+.btn-purchase {
+}
